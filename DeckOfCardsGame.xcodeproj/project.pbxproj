@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7B83A8112B0F4B1900E1731C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B83A8102B0F4B1900E1731C /* main.cpp */; };
+		7B83A8192B0F4B6600E1731C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B83A8172B0F4B6600E1731C /* Player.cpp */; };
+		7B83A81E2B0F4C2700E1731C /* GameDeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B83A81C2B0F4C2700E1731C /* GameDeck.cpp */; };
+		7B83A8212B0F4C5400E1731C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B83A81F2B0F4C5400E1731C /* Game.cpp */; };
+		7B83A8252B0F55B400E1731C /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B83A8232B0F55B400E1731C /* Card.cpp */; };
+		7B83A82D2B109C5A00E1731C /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B83A82B2B109C5A00E1731C /* Deck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		7B83A80D2B0F4B1900E1731C /* DeckOfCardsGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DeckOfCardsGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B83A8102B0F4B1900E1731C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7B83A8172B0F4B6600E1731C /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		7B83A8182B0F4B6600E1731C /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		7B83A81C2B0F4C2700E1731C /* GameDeck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameDeck.cpp; sourceTree = "<group>"; };
+		7B83A81D2B0F4C2700E1731C /* GameDeck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameDeck.hpp; sourceTree = "<group>"; };
+		7B83A81F2B0F4C5400E1731C /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		7B83A8202B0F4C5400E1731C /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		7B83A8232B0F55B400E1731C /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		7B83A8242B0F55B400E1731C /* Card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+		7B83A82B2B109C5A00E1731C /* Deck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		7B83A82C2B109C5A00E1731C /* Deck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Deck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				7B83A8102B0F4B1900E1731C /* main.cpp */,
+				7B83A8242B0F55B400E1731C /* Card.hpp */,
+				7B83A8232B0F55B400E1731C /* Card.cpp */,
+				7B83A82C2B109C5A00E1731C /* Deck.hpp */,
+				7B83A82B2B109C5A00E1731C /* Deck.cpp */,
+				7B83A81D2B0F4C2700E1731C /* GameDeck.hpp */,
+				7B83A81C2B0F4C2700E1731C /* GameDeck.cpp */,
+				7B83A8182B0F4B6600E1731C /* Player.hpp */,
+				7B83A8172B0F4B6600E1731C /* Player.cpp */,
+				7B83A8202B0F4C5400E1731C /* Game.hpp */,
+				7B83A81F2B0F4C5400E1731C /* Game.cpp */,
 			);
 			path = DeckOfCardsGame;
 			sourceTree = "<group>";
@@ -119,7 +144,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B83A82D2B109C5A00E1731C /* Deck.cpp in Sources */,
+				7B83A8192B0F4B6600E1731C /* Player.cpp in Sources */,
+				7B83A81E2B0F4C2700E1731C /* GameDeck.cpp in Sources */,
+				7B83A8252B0F55B400E1731C /* Card.cpp in Sources */,
 				7B83A8112B0F4B1900E1731C /* main.cpp in Sources */,
+				7B83A8212B0F4C5400E1731C /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
